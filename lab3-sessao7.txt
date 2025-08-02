@@ -1,0 +1,54 @@
+Script started on 2025-08-02 10:31:13-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="158" LINES="30"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag hotfix[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag hotfix
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag
+[A
+[?2004l[?1h=hotfix[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag -d hotfix[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag -d hotfix
+[A
+[?2004lDeleted tag 'hotfix' (was 255ed69)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag -a hotfix -m "Hotfix anotado"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag -a hotfix -m "Hotfix anotado"
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit show hotfix[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit show hotfix
+[A
+[?2004l[?1h=[33mtag hotfix[m[m
+Tagger: Pedro <pedrol.plsr@edu.unifor.br>[m
+Date:   Sat Aug 2 10:31:31 2025 -0300[m
+[m
+Hotfix anotado[m
+[m
+[33mcommit 255ed69750f4316a58e4f1a3b95799924eff1a05[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: hotfix[m[33m)[m[m
+Author: Pedro <pedrol.plsr@edu.unifor.br>[m
+Date:   Sat Aug 2 10:30:46 2025 -0300[m
+[m
+    add labs3-6[m
+[m
+[1mdiff --git a/lab3-sessao6.txt b/lab3-sessao6.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..01983e9[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/lab3-sessao6.txt[m[m
+[36m@@ -0,0 +1,51 @@[m[m
+[32m+[m[32mScript started on 2025-08-02 10:29:24-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="158" LINES="30"][m[m
+[32m+[m[32medro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[7m^G[27m[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "versã[m [32m[m[32m[01;32m[00m[01;34m[00m[7mo com nota" >> versao.txt[27m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27mecho "versão com nota" >> versao.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27medro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[7m^G[27m[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit add v[m [32m[m[32m[01;32m[00m[01;34m[00m[7mersao.txt[27m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27mgit add versao.txt[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27m[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27medro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[7m^G[27m[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commi[m [32m[m[32m[01;32m[00m[01;34m[00m[7mt -m "Commit com anotação de versão"[27m[m[41m[7m^M[27m[m[m
+:[K[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mexit[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[A
+[?2004lexit
+
+Script done on 2025-08-02 10:33:40-03:00 [COMMAND_EXIT_CODE="0"]

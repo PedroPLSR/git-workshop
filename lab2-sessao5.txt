@@ -1,0 +1,98 @@
+Script started on 2025-08-02 09:04:20-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="158" LINES="18"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checl[Kkou -b feature[C[C[C[C[1@t[C[C[C[C[C[C[C[C[C[C[C
+[?2004lSwitched to a new branch 'feature'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ echo -[K"linhas [K[K[Ka feature [K" > arquivo.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add "arquivo.txt"
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git ccoo[K[K[Kommit -m "commit na feature"
+[?2004l[feature 23753b5] commit na feature
+ 3 files changed, 360 insertions(+), 2 deletions(-)
+ create mode 100644 lab2-sessao3.txt
+ create mode 100644 lab2-sessao4.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git brancg[Kh
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git chk[Kekcout main
+[?2004lgit: 'chekcout' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git chekcout main[1P[1P[1@c[1@k
+[?2004lSwitched to branch 'main'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "linha main" > arquivo.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "linha main" > arquivo.txt
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ echo "linha main" > arquivo.txt[14Pgit checkout mainkc[C[C[C[C[C[C[C[C[7Pbranchcommit -m "commit na feature"[12Padd "arquivo.txt"
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add "arquivo.txt"echo "linha main" > arquivo.txt[14Pgit checkout mainkc[C[C[C[C[C[C[C[C[7Pbranchcommit -m "commit na feature"[1P"[1P"[1P"[1P"[1P"[1P"[1P"m"a"i"n"
+[?2004l[main 7c5891d] commit na main
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit checkout feature[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit checkout feature
+[A
+[?2004lSwitched to branch 'feature'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git g[Kmerge main 
+[?2004lAuto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git status
+[?2004lOn branch feature
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao5.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git merge --abort
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit reset --hard HEAD~1 [27mgit reset --hard HEAD~1 
+[?2004lHEAD is now at 8ba6c2e configurando ignore
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit rebase main[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rebase main
+[A
+[?2004l[KSuccessfully rebased and updated refs/heads/feature.
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit log --oneline --all[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline --all
+[A
+[?2004l[?1h=[33m7c5891d[m[33m ([m[1;36mHEAD -> [m[1;32mfeature[m[33m, [m[1;32mmain[m[33m)[m commit na main[m
+[33m8ba6c2e[m configurando ignore[m
+[33maea5e80[m Resolvido conflito[m
+[33m8e85186[m Resolvido conflito[m
+[33m1b3eea3[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mee6d586[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m8c1fb81[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mae24451[m Primeiro commit[m
+[33mf354567[m Resolve conflito entre A e B[m
+[33ma7d586d[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33m7a60b97[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33m137d7bd[m add o resto dos arquivos[m
+[33mb7d1f2f[m v3 main[m
+[33m280cb05[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33ma2a4d79[m add tudo[m
+[33m9efca41[m commit 2[m
+[33m2e75b0e[m commit 1[m
+:[K[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ q[Kexit
+[?2004lexit
+
+Script done on 2025-08-02 09:07:33-03:00 [COMMAND_EXIT_CODE="0"]

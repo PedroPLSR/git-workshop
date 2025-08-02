@@ -1,0 +1,122 @@
+Script started on 2025-08-02 10:03:51-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="158" LINES="30"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "linha 1" > log.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "linha 1" > log.txt
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add .
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -m "Commit 1"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Commit 1"
+[A
+[?2004l[main 10e0886] Commit 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "linha 2" >> log.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "linha 2" >> log.txt
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -am "Commit 2"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -am "Commit 2"
+[?2004l[main e0283d9] Commit 2
+ 1 file changed, 1 insertion(+)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "linha 3" >> log.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "linha 3" >> log.txt
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -am "Commit 3"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -am "Commit 3"
+[A
+[?2004l[main ded2689] Commit 3
+ 1 file changed, 1 insertion(+)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit log --oneline[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline
+[A
+[?2004l[?1h=[33mded2689[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Commit 3[m
+[33me0283d9[m Commit 2[m
+[33m10e0886[m Commit 1[m
+[33m9ab4d4c[m add labs2 5 e 6[m
+[33m03b52b5[m commit base[m
+[33m7c5891d[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33m8ba6c2e[m configurando ignore[m
+[33maea5e80[m Resolvido conflito[m
+[33m8e85186[m Resolvido conflito[m
+[33m1b3eea3[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33mee6d586[m[33m ([m[1;32mbranch2[m[33m)[m Commit na branch2[m
+[33m8c1fb81[m[33m ([m[1;32mbranch1[m[33m)[m Commit na branch1[m
+[33mae24451[m Primeiro commit[m
+[33mf354567[m Resolve conflito entre A e B[m
+[33ma7d586d[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33m7a60b97[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33m137d7bd[m add o resto dos arquivos[m
+[33mb7d1f2f[m v3 main[m
+[33m280cb05[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33ma2a4d79[m add tudo[m
+[33m9efca41[m commit 2[m
+[33m2e75b0e[m commit 1[m
+[33mb501eb5[m Revert "v5"[m
+[33mc149326[m v5[m
+[33m49084b8[m v4[m
+[33mab2a613[m v3[m
+[33mc81b26f[m v2[m
+[33mbe10b4a[m v1[m
+[33m26c563b[m Corrige v2 revertido[m
+:[K[K[33mb4b5745[m v2[m
+:[K[K[33m0d99687[m v1[m
+:[K[K[K[7m(END)[27m[K[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag v1.0 HEAD~2[27mgit tag v1.0 HEAD~2
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag v1.1 HEAD~1[27mgit tag v1.1 HEAD~1
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit tag v1.2 HEAD [27mgit tag v1.2 HEAD 
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ i[K[7mgit tag v1.2 HEAD [27m[1Pgit tag v1.2 HEAD[K[K[K[K[K[K[K[K[K[K
+[?2004l[?1h=v1.0[m
+v1.1[m
+v1.2[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit show v1.1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit show v1.1
+[A
+[?2004l[?1h=[33mcommit e0283d9340a27909ab1b26916c9dc146d69152ab[m[33m ([m[1;33mtag: v1.1[m[33m)[m[m
+Author: Pedro <pedrol.plsr@edu.unifor.br>[m
+Date:   Sat Aug 2 10:04:26 2025 -0300[m
+[m
+    Commit 2[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex 9ece502..b657d30 100644[m[m
+[1m--- a/log.txt[m[m
+[1m+++ b/log.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+ linha 1[m[m
+[32m+[m[32mlinha 2[m[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit checkout v1.0[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit checkout v1.0
+[A
+[?2004l
+Note: switching to 'v1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 10e0886 Commit 1
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ 
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checkout v1.0[K[K[Kit status
+[?2004lit: command not found
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ it status[1@g
+[?2004l[31mHEAD detached at [mv1.0
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab3-sessao1.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checkout main
+[?2004lPrevious HEAD position was 10e0886 Commit 1
+Switched to branch 'main'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-02 10:07:10-03:00 [COMMAND_EXIT_CODE="0"]
