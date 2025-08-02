@@ -1,0 +1,93 @@
+Script started on 2025-08-01 21:11:26-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="158" LINES="18"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ exitgit commit -am "v2 main"echo "v2 main" >> app.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -am "v2 main"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -am "v2 main"
+[A
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mapp.txt[m
+	[31mlab2-sessao1.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git commit -am "v2 main"echo "v2 main" >> app.txtxit[Kgit commit -am "v2 main"echo "v2 main" >> app.txt[8Pgit checkout main[2Pbranch testecheckout mainb[Kcheckout maintestmainb[Kcheckout main[1Pbranch teste[Kcheckout mainecho "v2 main" >> app.txt[1Pgit commit -am "v2 main"exit[Kcho "v2 main" >> app.txt[1Pgit commit -am "v2 main"[Kgit add app.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git commit =[K-m ""v" "[1P"2" "m"a"i"n"
+[?2004l[main 280cb05] v2 main
+ 1 file changed, 1 insertion(+)
+ create mode 100644 app.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit checkout test[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit checkout test
+[A
+[?2004lSwitched to branch 'test'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git merge main
+[?2004lUpdating 9efca41..280cb05
+Fast-forward
+ app.txt           |   1 [32m+[m
+ lab1-sessao3.txt  |  34 [32m++++++++++++++++++++++++++++++++++[m
+ lab1-sessao4.txt  |  19 [32m+++++++++++++++++++[m
+ lab1-sessao5.txt  |  41 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ lab1-session6.txt | 132 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 5 files changed, 227 insertions(+)
+ create mode 100644 app.txt
+ create mode 100644 lab1-sessao3.txt
+ create mode 100644 lab1-sessao4.txt
+ create mode 100644 lab1-sessao5.txt
+ create mode 100644 lab1-session6.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git merge maincheckout testD[K[K[K[K[Kprod
+[?2004lSwitched to branch 'prod'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checkout prod[3Pmerge main[K[K[K[Ky[K[K[K[K[K[K[Kmerge test
+[?2004lUpdating 9efca41..280cb05
+Fast-forward
+ app.txt           |   1 [32m+[m
+ lab1-sessao3.txt  |  34 [32m++++++++++++++++++++++++++++++++++[m
+ lab1-sessao4.txt  |  19 [32m+++++++++++++++++++[m
+ lab1-sessao5.txt  |  41 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ lab1-session6.txt | 132 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 5 files changed, 227 insertions(+)
+ create mode 100644 app.txt
+ create mode 100644 lab1-sessao3.txt
+ create mode 100644 lab1-sessao4.txt
+ create mode 100644 lab1-sessao5.txt
+ create mode 100644 lab1-session6.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checkout main
+[?2004lSwitched to branch 'main'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "v3 main" >> app.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "v3 main" >> app.txt
+[A
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add.[K .
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -am "v3 main"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -am "v3 main"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[main b7d1f2f] v3 main
+ 2 files changed, 39 insertions(+)
+ create mode 100644 lab2-sessao1.txt
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit branch[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit branch
+[A
+[?2004l[?1h=* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  teste[m[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit log --oneline --all[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit log --oneline --all
+[A
+[?2004l[?1h=[33mb7d1f2f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m v3 main[m
+[33m280cb05[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33ma2a4d79[m add tudo[m
+[33m9efca41[m[33m ([m[1;32mteste[m[33m)[m commit 2[m
+[33m2e75b0e[m commit 1[m
+[33mb501eb5[m Revert "v5"[m
+[33mc149326[m v5[m
+[33m49084b8[m v4[m
+[33mab2a613[m v3[m
+[33mc81b26f[m v2[m
+[33mbe10b4a[m v1[m
+[33m26c563b[m Corrige v2 revertido[m
+[33mb4b5745[m v2[m
+[33m0d99687[m v1[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mexit[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[A
+[?2004lexit
+
+Script done on 2025-08-01 21:17:45-03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,132 @@
+Script started on 2025-08-01 20:00:42-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ cat arquivo.txt
+[?2004llinha 1
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mecho "linha 1" > arquivo.txt[27mecho "linha 1" > arquivo.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit add arquivo.txt[27mgit add arquivo.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add arquivo.txt[9@echo "linha 1" >[C[C[C[C[C[C[C[C[C[C[C[C[13Pcat[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kgit cat-file -p 9efca41e1253a045e526bfcd863e1a44cd81def9[A]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ct
+[C[C[C[C[C[C[C[C[C[A]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [C[C[C[Crev-parse HEAD[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind .git/objects -type f[10Pls .git/objectsgit commit -m "algum commit"[8Padd arquivo.txt echo "linha 1" > arquivo.txt[18Pgit status
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit commit -m "algum commit"[27mgit commit -m "algum commit"
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git commit -m "algum commit"status[Kadd arquivo.txt
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add arquivo.txtcommit -m "algum commit"status[K
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git statusadd arquivo.txt[K[K[K[K[K[K[K[K[K[K[K.
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git add .status
+[?2004lOn branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   lab1-sessao2.txt[m
+	[32mnew file:   lab1-sessao3.txt[m
+	[32mnew file:   lab1-sessao4.txt[m
+	[32mnew file:   lab1-sessao5.txt[m
+	[32mnew file:   lab1-session6.txt[m
+
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7m"git restore --staged[27m"git restore --staged[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C .
+[?2004l[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git restore --staged .[12Pstatus
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git [K[K[K[Kcat arquivo.txt
+[?2004llinha 1
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ ls
+[?2004l[0m[01;32mREADME.md[0m    [01;32mlab1-sessao1.txt[0m  [01;32mlab1-sessao3.txt[0m  [01;32mlab1-sessao5.txt[0m   [01;32mnotas.txt[0m
+[01;32marquivo.txt[0m  [01;32mlab1-sessao2.txt[0m  [01;32mlab1-sessao4.txt[0m  [01;32mlab1-session6.txt[0m
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ lscat arquivo.txt[5Pgit status
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab1-sessao2.txt[m
+	[31mlab1-sessao3.txt[m
+	[31mlab1-sessao4.txt[m
+	[31mlab1-sessao5.txt[m
+	[31mlab1-session6.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git statusls[Kcat arquivo.txt[5Pgit statusrestore --staged .[12Pstatus[1Padd .status[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[7mls .git/objects[27mls .git/objects
+[?2004l[0m[34;42m09[0m  [34;42m13[0m  [34;42m26[0m  [34;42m2e[0m  [34;42m4b[0m  [34;42m58[0m  [34;42m75[0m  [34;42m80[0m  [34;42m92[0m  [34;42m9d[0m  [34;42mab[0m  [34;42mb5[0m  [34;42mc1[0m  [34;42mcd[0m  [34;42mde[0m  [34;42med[0m  [34;42mfe[0m    [34;42mpack[0m
+[34;42m0d[0m  [34;42m21[0m  [34;42m2a[0m  [34;42m49[0m  [34;42m4d[0m  [34;42m62[0m  [34;42m78[0m  [34;42m85[0m  [34;42m96[0m  [34;42m9e[0m  [34;42mb4[0m  [34;42mbe[0m  [34;42mc8[0m  [34;42md5[0m  [34;42me6[0m  [34;42mfc[0m  [34;42minfo[0m
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mfind .git/objects -type f[27mfind .git/objects -type f
+[?2004l.git/objects/09/8af5c303f89f95faa1e0fb6bba7c7b46598f03
+.git/objects/0d/9968723063f1130ef4a0d69a11b3a76135a9d5
+.git/objects/13/8525b49ab79aa43b054d2e0b2eb1c5da550dd1
+.git/objects/21/39d8be699ff388ab3ec85008a3906675ac67cb
+.git/objects/26/c563bb643e21be6ba535971157f5246d5554ed
+.git/objects/2a/8cf449ea8c95dd090b48872234eeec47ee3766
+.git/objects/2e/75b0e396c4b629480c03ece5da2b8999867d17
+.git/objects/49/084b87f7bbc42e012426b4358d5b4addd3a783
+.git/objects/4b/1d4d4b660c400875dd122de217e942f481a378
+.git/objects/4d/73d612043616ec9150d039de661685eb8fed8f
+.git/objects/58/df66544cfa99d944448f8cedee7a0408adec57
+.git/objects/62/6799f0f85326a8c1fc522db584e86cdfccd51f
+.git/objects/62/cc284bd8e7825b5dc37e10d5a3fd32954731b7
+.git/objects/75/344c5946275e6cae1d145f855dee685568ed05
+.git/objects/75/556beabeeef67b67efbf40135e7129f51a0c42
+.git/objects/78/a18a5f339f6fed6ac71650fa36418439ca80ca
+.git/objects/80/04a004e08f88a04aaeb5fe70c316616e8be380
+.git/objects/85/cd8a806854174787506c86291fa60b9f0448d7
+.git/objects/92/2a00f362f6bd4206d26d07a593fd9dc6b98d26
+.git/objects/96/74122036efe273f9140585ba102868003eba23
+.git/objects/9d/ca86c443de9ae364f3c4a6576122c24e605e5e
+.git/objects/9e/39bae9898794c10a8ef88e00267c6cc84f3bac
+.git/objects/9e/ce50267075657265ca0813fd606b80c2ba5560
+.git/objects/9e/fca41e1253a045e526bfcd863e1a44cd81def9
+.git/objects/ab/2a613ac70c0a8f57333131ad68d82c688056d7
+.git/objects/b4/b5745ef50f82f39bb91750a350594428db64db
+.git/objects/b5/01eb5be91d64cf58daf916a5b3cb78346547cc
+.git/objects/be/10b4a2d6dcaf028787407315018bbf67d1252a
+.git/objects/c1/49326e3419180ae853a81efd5599cce0f9f1a7
+.git/objects/c8/1b26ffd2327058ba732cd3fb149524e19db2bd
+.git/objects/cd/3222e8ba4214112ada05a2f1758984a042050c
+.git/objects/d5/5f8679f7d4803c3fa23d11f07b452a2a0413e7
+.git/objects/de/773fda1b53ef1fe2c18417a9cd60021a819d59
+.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/ed/7ce12274bc71c66cb596feaaf9f02ce91b820e
+.git/objects/fc/96d279673c5c1d0cd03fb9d162f801b78074ba
+.git/objects/fe/f4722389ee26d74a76046c5bd6934e892c515a
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ find .git/objects -type f[10Pls .git/objects[5Pgit statusls[Kcat arquivo.txt[5Pgit statusrestore --staged .DDD[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcheckout mmain[K[K[K[Kain
+[?2004lAlready on 'main'
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git checkout mainfind .git/objects -type f[8Pgit checkout main[Kgrp arquivo.txt
+[?2004lCommand 'grp' not found, but there are 17 similar ones.
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ grp arquivo.txt[1@e
+[?2004l^[[B^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B                                            ^C
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ grep arquivo.txt[C[1@g[1@i[1@t[1@ 
+[?2004l[?1h=[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [?2004l
+exit
+
+Script done on 2025-08-01 20:08:04-03:00 [COMMAND_EXIT_CODE="1"]

@@ -1,0 +1,34 @@
+Script started on 2025-08-01 19:51:10-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git lof[Kg --oneline
+[?2004l[?1h=[33mc149326[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m v5[m
+[33m49084b8[m v4[m
+[33mab2a613[m v3[m
+[33mc81b26f[m v2[m
+[33mbe10b4a[m v1[m
+[33m26c563b[m Corrige v2 revertido[m
+[33mb4b5745[m v2[m
+[33m0d99687[m v1[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git log --oneline[K[K[K[K[K[K[K1[K[K1
+[?2004l[?1h=[33mcommit c149326e3419180ae853a81efd5599cce0f9f1a7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Pedro <pedrol.plsr@edu.unifor.br>[m
+Date:   Fri Aug 1 19:50:52 2025 -0300[m
+[m
+    v5[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git config use [Kr [K,[K.name
+[?2004lPedro
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ git config user.nameD[K[K[K[K[Kemail
+[?2004lpedrol.plsr@edu.unifor.br
+[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ [7mgit diff HEAD~1 HEAD[27mgit diff HEAD~1 HEAD
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex ed7ce12..4d73d61 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -2,3 +2,4 @@[m [mv1[m[m
+ v2[m[m
+ v3[m[m
+ v4[m[m
+[32m+[m[32mv5[m[m
+[K[?1l>[?2004h]0;pedro@DESKTOP-MANIF94: /mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[01;32mpedro@DESKTOP-MANIF94[00m:[01;34m/mnt/c/Users/Pedro Ribeiro/Documents/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 19:52:07-03:00 [COMMAND_EXIT_CODE="0"]
